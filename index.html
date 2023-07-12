@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap;" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Univearsity Website Design</title>
+</head>
+<body> 
+   <section class="header">
+   <nav>
+   <a href="index.html"><img src="images/logo.png"></a>
+    <div class="nav-links" id="navLinks">
+      <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+      <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Course</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contact</a></li>
+      </ul>
+    </div>
+    <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+   </nav>
+   <div class="text-box"> 
+   <h1> World's Biggest University</h1>
+   <p>Making website is a cup of tea nowadays.If we learn HTML,CSS,Javascript <br>we are then ready to go! </p>
+   <a href="" class="hero-btn">Visit us to know more</a>
+   </div>
+   </section>
+<!-- courses -->
+
+   <section class="course">
+    <h1>Courses we offer</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+    <div class="row">
+      <div class="course-col">
+          <h3>Intermediate </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eligendi labore eveniet officiis dignissimos. Incidunt!</p>
+       </div>
+       <div class="course-col">
+          <h3>Degree</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam delectus maiores, a repellat nisi sit amet consectetur odit nam voluptate officia? Reiciendis, eaque.</p>
+       </div>
+       <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae error eius blanditiis optio tempore reprehenderit laboriosam repellat, autem quia impedit.</p> 
+       </div>
+    </div>
+
+
+   </section>
+
+
+
+
+<script> 
+
+  var navLinks = document.getElementById("navLinks");
+  
+  function showMenu(){
+    navLinks.style.right = "0px";
+  }
+
+  function hideMenu(){
+    navLinks.style.right = "-200px"; 
+  }
+
+</script>
+</body>
+</html>
